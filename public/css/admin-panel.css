@@ -1,0 +1,78 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+/**************** Sidebar Section stars here ******************/
+
+.sidebar{
+    width: 20%;
+    background-color: #7C4DFF;
+    float: left;
+    height: 100vh;
+
+}
+.sidebar .sideabar-options{
+    text-align: left;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.sidebar .sideabar-options ul{
+    list-style-type:none;
+
+}
+.sidebar .sideabar-options ul li{
+    font-size: 22px;
+    color: white;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    padding-top: 30px;
+
+
+}
+.sidebar .sideabar-options ul a{
+    color: white;
+    justify-items: center;
+    text-align: left;
+    margin-left: 5%;
+
+}
+
+
+/**************** Sidebar Section ends here ******************/
+
+/**************** Sidebar Section stars here ******************/
+
+.admin{
+    width: 80%;
+    background-color: white;
+    float: left;
+    height: 100vh;
+}
+
+/**************** Sidebar Section ends here ******************/

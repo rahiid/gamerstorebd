@@ -1,0 +1,395 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+/**************** Header Section stars here ******************/
+
+
+
+.header-section {
+
+    border-bottom: 2px solid #7C4DFF;
+
+}
+
+.header-section .bg-light {
+    width: 100%;
+    background-size: cover;
+    line-height: 120%;
+    padding: 20px 0px;
+    background-color: transparent !important;
+}
+
+
+
+
+/**** nabar link item color
+.header .navbar a{
+
+}
+.header-section .navbar .nav-item a{
+
+}
+****/
+
+.header-section .navbar .navbar-brand{
+
+    font-size: 1.2rem;
+    letter-spacing: 0.09em;
+    font-weight: 600;
+}
+
+
+.header-section .navbar .nav-item .active{
+    color: #7C4DFF;
+}
+
+
+.header-section .navbar-light .navbar-nav .nav-link {
+
+    margin-left: 10px;
+    font-size: 1rem;
+    letter-spacing: 0.09em;
+    font-weight: 600;
+}
+
+
+.header-section .navbar .form-inline .nav-item i {
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: 900;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+.header-section .navbar .collapse .form-inline a{
+    color: #7C4DFF;
+}
+
+.header-section .navbar .collapse .form-inline a:hover{
+    color: black;
+    background: transparent;
+    border: 1px solid #7C4DFF;
+}
+
+
+
+
+
+
+/* Dropdown Button */
+.header-section .navbar #navbarSupportedContent .dropdown .dropbtn {
+    background-color: transparent;
+    color: #7C4DFF;
+    border: 1px solid black;
+    opacity:1;
+  }
+
+
+.header-section .navbar #navbarSupportedContent .dropdown:hover {
+    background-color: transparent !important;
+    color: black;
+    border: 1px solid #7C4DFF;
+    border: none;
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+ .header-section .navbar #navbarSupportedContent .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+  }
+
+  /* Links inside the dropdown */
+  .header-section .navbar #navbarSupportedContent .dropdown .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border: none;
+    border-radius: 5px;
+  }
+
+  /* Change color of dropdown links on hover */
+  .header-section .navbar #navbarSupportedContent .dropdown .dropdown-content a:hover {
+    background-color: #ddd;
+    color: #7C4DFF;
+    }
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+
+
+/**************** Header Section ends here font-family: 'Odibee Sans', cursive; ******************/
+
+
+
+/**************** onlinepayment Section stars here ******************/
+
+.onlinepayment{
+    width: 100%;
+}
+
+
+
+.onlinepayment .payment-inner{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.onlinepayment .payment-inner .product-detail h4{
+    padding-bottom: 20px;
+}
+
+.onlinepayment .payment-inner .product-detail h4 strong{
+    color: #7C4DFF;
+}
+
+.onlinepayment .payment-inner .product-detail .table{
+    width: 100%;
+}
+.onlinepayment .payment-inner .product-detail .table td {
+    text-align: right;
+    padding-right: 20px;
+}
+.onlinepayment .payment-inner .product-detail .table th {
+
+    padding-left: 20px;
+}
+
+
+
+.onlinepayment .payment-inner .payment-btn{
+    padding-top: 20px;
+    text-align: right;
+}
+
+.onlinepayment .payment-inner .payment-btn #cancel-btn{
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.onlinepayment .payment-inner .payment-btn #confirm-btn{
+    color: #7C4DFF;
+    border-color: #7C4DFF;
+    font-weight: 600;
+}
+.onlinepayment .payment-inner .payment-btn #confirm-btn:hover{
+    background: #7C4DFF;
+    color: white;
+}
+
+
+
+.onlinepayment .payment-inner .onlinepay .addmoney-inner{
+
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.onlinepayment .payment-inner .onlinepay .addmoney-inner img{
+    width: 145px;
+    height: 65px;
+    margin-left: 10px;
+    border-radius: 5px;
+
+}
+.onlinepayment .payment-inner .onlinepay .addmoney-inner [type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.onlinepayment .payment-inner .onlinepay .addmoney-inner [type=radio] + img {
+    cursor: pointer;
+}
+
+.onlinepayment .payment-inner .onlinepay .addmoney-inner [type=radio]:checked + img {
+    outline: 2px solid #7C4DFF;
+    border-radius: 5px;
+}
+
+.onlinepayment .payment-inner .onlinepay .addmoney-text #addmoney-number{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/**************** onlinepayment Section ends here ******************/
+
+
+
+/**************** walletpayment Section stars here ******************/
+
+.walletpayment{
+    width: 100%;
+}
+
+.walletpayment .payment-inner{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.walletpayment .payment-inner .product-detail h4{
+    padding-bottom: 20px;
+}
+
+.walletpayment .payment-inner .product-detail h4 strong{
+    color: #7C4DFF;
+}
+
+.walletpayment .payment-inner .product-detail .table{
+    width: 100%;
+}
+.walletpayment .payment-inner .product-detail .table td {
+    text-align: right;
+    padding-right: 20px;
+}
+.walletpayment .payment-inner .product-detail .table th {
+
+    padding-left: 20px;
+}
+
+.walletpayment .payment-inner h6 strong{
+    color: #7C4DFF;
+
+
+}
+
+.walletpayment .payment-inner h6{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.walletpayment .payment-inner .payment-btn{
+
+    text-align: right;
+}
+
+.walletpayment .payment-inner .payment-btn #cancel-btn{
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.walletpayment .payment-inner .payment-btn #confirm-btn{
+    color: #7C4DFF;
+    border-color: #7C4DFF;
+    font-weight: 600;
+}
+.walletpayment .payment-inner .payment-btn #confirm-btn:hover{
+    background: #7C4DFF;
+    color: white;
+}
+
+/**************** walletpayment Section ends here ******************/
+
+/**************** footer Section stars here ******************/
+
+.footer-section{
+    width: 100%;
+    background-color: #7C4DFF;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-section .social .btn:hover{
+    color: #7C4DFF;
+}
+
+.footer-section .footer-mail .btn:hover{
+    color: #7C4DFF;
+}
+.footer-section .footer-mail p{
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    font-size: 0.9rem;
+}
+
+.footer-section .footer-disclaimer p{
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: -5px;
+}
+
+.footer-section .footer-links a{
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+
+}
+
+
+.footer-section .footer-links .underline{
+    position: relative;
+
+}
+
+.footer-section .footer-links .underline::before{
+
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+
+.footer-section .footer-links .underline:hover::before{
+      left: 0;
+      right: auto;
+      width: 100%;
+    }
+  }
+
+.footer-section .copy p{
+    letter-spacing: 0.1rem;
+    margin-bottom: -5px;
+}
+/**************** footer Section ends here ******************/

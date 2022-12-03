@@ -1,0 +1,34 @@
+{
+    "name": "game1",
+    "description": "This is my first hook.",
+    "require": {
+        "larapack/hooks": "^1.0.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Game1\\": "src/"
+        }
+    },
+    "extra": {
+        "hook": {
+            "providers": [
+                "Game1\\Game1ServiceProvider"
+            ],
+            "aliases": {
+                "Game1": "Game1\\Game1Facade"
+            },
+            "migrations": [
+                "resources/database/migrations"
+            ],
+            "seeders": [
+                "resources/database/seeders"
+            ],
+            "unseeders": [
+                "resources/database/unseeders"
+            ],
+            "assets": {
+                "resources/assets": "public/vendor/game1"
+            }
+        }
+    }
+}
