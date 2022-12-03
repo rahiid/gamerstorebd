@@ -2,16 +2,16 @@
 
 <h3>Home</h1>
 
-![Infinityus Home view](https://drive.google.com/uc?id=1-NcHXoOWJwakMfvCvrylDJrv_LXU62Y7)
+![Gamerstorebd](https://drive.google.com/uc?id=1-NcHXoOWJwakMfvCvrylDJrv_LXU62Y7)
 
 <h3>Topup Page</h1>
 
-![Infinityus Home view](https://drive.google.com/uc?id=1w9Jhl74IVbP97OGJVCY_dowg2wm0bHvK)
+![Gamerstorebd](https://drive.google.com/uc?id=1w9Jhl74IVbP97OGJVCY_dowg2wm0bHvK)
 
 <h3>Item buy page</h1>
 
-![Infinityus Home view](https://drive.google.com/uc?id=1PkVdoJs4G-PIfVvpwtketrjTpGSd1HHM)
+![Gamerstorebd](https://drive.google.com/uc?id=1PkVdoJs4G-PIfVvpwtketrjTpGSd1HHM)
 
 <h3>User profile page</h1>
 
-![Infinityus Home view](https://drive.google.com/uc?id=1pDgjLnh6MBZXuMZ3g3DHT_ulaz58_07t)
+![Gamerstorebd](https://drive.google.com/uc?id=1pDgjLnh6MBZXuMZ3g3DHT_ulaz58_07t)
